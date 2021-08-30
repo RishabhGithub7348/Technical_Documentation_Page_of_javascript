@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+#main-doc{
+    float: left;
+  
+
+  
+
+}
+
+body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+
+
+}
+  
+
+#navbar {
+    height: 100%;
+    width: 290px;
+    position: fixed;
+    background-color: rgb(16, 24, 42);
+    top: 0;
+    left: 0;
+    
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.nav-link {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    
+    color: #17f8f1;
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+}
+section li {
+    margin: 15px 0px 0px 20px;
+  }
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+  
+     
+    
+
+}
+
+
+code {
+    display: block;
+    text-align: left;
+
+    background-color: #0a0a0a;
+    color: rgb(15, 220, 206);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+
+#navbar h1{
+    position: relative;
+        color: black;
+        margin: 20px;
+        position: absolute;
+        font-size: 24px;
+        margin-top: -5px;
+        color:rgb(101, 154, 247);
+     
+       
+        
+      }
+
+nav li{
+    color: #4d4e53;
+    border-top: 3px solid;
+    border-color: rgb(233, 228, 228);
+    list-style: none;
+   
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  
+ 
+
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+main {
+    margin-left: 250px; /* Same width as the sidebar + left position in px */
+     /* Increased text to enable scrolling */
+    padding: 0px 60px;
+    background-color: hsla(170, 71%, 37%, 0.197);
+
+    
+    color: rgba(3, 3, 3, 0.925);
+  }
+  
+
+ 
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+
+@media (max-width:723px){
+    .container{
+        display: block;
+    }
+    .right-content{
+        left: 0;
+    }
+    .left-content{
+        position: static;
+    }
+    .scroll-y{
+        height: 220px;
+        width: 100%;
+        border: solid 2px #4d4e53;
+    }
+    .heading p{
+        text-align: center;
+    }
+ 
+
+}
